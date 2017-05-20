@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title></title>
-  <script>
+
     // 对数组进行去重操作，只考虑数组中元素为数字或字符串，返回一个去重后的数组
     //第一种方法，遍历，将没有的插入临时数组
     function uniqArray1(arr) {
@@ -40,9 +35,3 @@
       }
       return r;
     }
-  </script>
-</head>
-<body>
-
-</body>
-</html>
