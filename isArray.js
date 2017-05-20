@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title></title>
-  <script>
     // 判断arr是否为一个数组，返回一个bool值
     function isArray(arr) {
       return Object.prototype.toString.call(arr) === '[object Array]';
@@ -20,9 +14,3 @@
       // return  Object.getPrototypeOf(fn)==Function.prototype;
       // return  fn instanceof Function
     }
-  </script>
-</head>
-<body>
-
-</body>
-</html>
